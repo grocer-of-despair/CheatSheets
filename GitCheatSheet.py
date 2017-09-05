@@ -23,24 +23,24 @@ git log --pretty=oneline
 Git log —author=<username>
 git log --graph --decorate --oneline
 
-Unstage
-git reset HEAD index.html
+def Unstage
+    git reset HEAD index.html
 
-Uncommit (Keep files unchanged)(1= most recent)
-git reset --soft HEAD~1
+def Uncommit: # (Keep files unchanged)(1= most recent)
+    git reset --soft HEAD~1
 
-Undo a push
-Git revert HEAD
+def Undo a push
+    Git revert HEAD
 
-Check differences before you commit
-Git diff <file>
+def Check differences before you commit
+    Git diff <file>
 
 git fetch
 git merge origin/master
 
 git pull origin master
 
-BRANCHES
+class BRANCHES:
 Show all
 Git branch -a
 
@@ -50,20 +50,20 @@ Git branch <name>
 Switch
 Git checkout <name>
 
-Create and Switch
-Git checkout -b <name>
+def CreateAndSwitch:
+    Git checkout -b <name>
 
-Rename
-git branch -m <name> <new-name>
+def Rename
+    git branch -m <name> <new-name>
 
-Delete
-Git branch -d <name>
+def Delete
+    Git branch -d <name>
 
-Merge with current path
-Git merge <name>
+def Merge with current path
+    Git merge <name>
 
-No FastForward
-Git merge —no-ff <name>
+def No FastForward
+    Git merge —no-ff <name>
 
-Delete Remote
-git push origin --delete <name>
+def Delete Remote
+    git push origin --delete <name>
