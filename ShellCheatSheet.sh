@@ -1,8 +1,10 @@
 bin # Binary
 
+sudo -i # Run terminal as ROOT
+
 echo $COLUMNS x $LINES  #Returns the size of the Terminal Window
 
-cd Pictures; ls # Lets you write 2 commands on the same LINE
+cd Pictures; ls # Lets you write 2+ commands on the same LINE
 
 pwd # Print Working Directory
 .. # Parent Directory
