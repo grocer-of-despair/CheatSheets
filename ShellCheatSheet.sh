@@ -15,12 +15,14 @@ pwd # Print Working Directory
 ls -l Documents/*.pdf # Lists all files that are PDF
 ls bear* # Lists files that start with bear
 
+ls -al ~/.ssh # Lists the files in your .ssh directory, if they exist
+
 mv 'Documents/File' Documents/Folder/ # To Move from one folder to another without cd
 
 curl # C URL
 curl -L 'http://google.com' # -L Follows redirects
 curl -o google.html -L 'http://google.com' # Save as google.html
-cmd+k OR clear# Clear Terminal Window
+'cmd+k' OR 'clear' # Clear Terminal Window
 
 cat # Reads a file and outputs the contents (Catenate)
 less # Reads a file and outputs a section of it at a time, just press SPACE
